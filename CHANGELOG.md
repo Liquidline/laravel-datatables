@@ -4,43 +4,42 @@
 
 ### [Unreleased]
 
-### [v11.1.6](https://github.com/yajra/laravel-datatables/compare/v11.1.5...v11.1.6) - 2025-01-21
+### v12.3.0 - 2025-05-17
 
-- fix: static analysis #3213
-- ci: update workflow #3213
+- feat: add option to enable alias on relation tables #3234
+- tests: Add tests to cover prefix detection #3239
+- fix: https://github.com/yajra/laravel-datatables/pull/1782
 
-### [v11.1.5](https://github.com/yajra/laravel-datatables/compare/v11.1.4...v11.1.5) - 2024-09-26
+### v12.2.1 - 2025-05-09
 
-- Add skip total records back #3170
-- Alternative to #3169. 
-- Partially reverts #3157.
+- fix: improve prefix detection #3238
+- fix: #3237
 
-### [v11.1.4](https://github.com/yajra/laravel-datatables/compare/v11.1.3...v11.1.4) - 2024-08-17
+### v12.2.0 - 2025-05-08
 
-- fix: Ensure dates are not turned into arrays by the processor #3163
-- fix: ##3156
+- feat: add relation resolver param to order callback #3232
+- fix: improve column alias detection #3236
+- fix: #3235
 
-### [v11.1.3](https://github.com/yajra/laravel-datatables/compare/v11.1.2...v11.1.3) - 2024-07-15
+### v12.1.2 - 2025-05-07
 
-- fix: make query for filteredRecords when totalRecords was manually set #3157
+- fix: prevent prefixing null/empty string #3233
 
-### [v11.1.2](https://github.com/yajra/laravel-datatables/compare/v11.1.1...v11.1.2) - 2024-07-03
+### v12.1.1 - 2025-05-05
 
-- fix: ErrorException when direction is null #3154
+- fix: prevent ambiguous column names #3227
 
-### [v11.1.1](https://github.com/yajra/laravel-datatables/compare/v11.1.0...v11.1.1) - 2024-04-16
+### v12.1.0 - 2025-04-28
 
-- fix: mariadb support for scout search #3146
+- feat: add relation resolver param to filter callbacks #3229
 
-### [v11.1.0](https://github.com/yajra/laravel-datatables/compare/v11.0.0...v11.1.0) - 2024-04-16
+### v12.0.1 - 2025-04-07
 
-- feat: Optimize simple queries #3135
-- fix: #3133
+- fix: query results improvements #3224
 
-### [v11.0.0](https://github.com/yajra/laravel-datatables/compare/v11.0.0...master) - 2024-03-14
+### v12.0.0 - 2025-02-26
 
-- Laravel 11 support
+- feat: Laravel v12 Compatibility #3217
+- fix: prevent duplicate table name errors #3216
 
-
-[Unreleased]: https://github.com/yajra/laravel-datatables/compare/v11.0.0...master
-
+[Unreleased]: https://github.com/yajra/laravel-datatables/compare/v12.0.0...master
